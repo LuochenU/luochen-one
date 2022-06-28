@@ -1,0 +1,21 @@
+本地搜索 ,就是搜索框的支持模糊的搜索
+知乎
+https://zhuanlan.zhihu.com/p/369951111#:~:text=%E6%89%93%E5%BC%80%20themes%2Fnext%2F_config.yml%20%E6%96%87%E4%BB%B6%EF%BC%8C%E6%90%9C%E7%B4%A2%20menu_icons%20%E5%85%B3%E9%94%AE%E5%AD%97%EF%BC%8C%E4%BF%AE%E6%94%B9%E5%AF%B9%E5%BA%94%E5%9B%BE%E6%A0%87%E5%90%8D%E7%A7%B0%E6%88%96%E8%80%85%E6%96%B0%E5%A2%9E%E5%AF%B9%E5%BA%94%20menu%20%E7%9A%84%E5%9B%BE%E6%A0%87%E3%80%82%20%E6%96%B0%E5%BB%BA%E5%85%AC%E7%9B%8A404%E7%95%8C%E9%9D%A2,%E5%9C%A8%E7%AB%99%E7%82%B9%E6%A0%B9%E7%9B%AE%E5%BD%95%E4%B8%8B%2C%E8%BE%93%E5%85%A5%20hexo%20new%20page%20404%2C%E9%BB%98%E8%AE%A4%E5%9C%A8%20Hexo%20%E7%AB%99%E7%82%B9%E4%B8%8B%2Fsource%2F404%2Findex.md%20%E6%89%93%E5%BC%80%E6%96%B0%E5%BB%BA%E7%9A%84404%E7%95%8C%E9%9D%A2%EF%BC%8C
+本地搜索
+
+站点的根目录下
+
+$ npm install hexo-generator-searchdb --save
+打开 Hexo 站点的 _config.yml,添加配置
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+打开 themes/next/_config.yml ,搜索关键字 local_search ,设置为 true：
+
+# Local search
+# Dependencies: https://github.com/flashlab/hexo-generator-search
+local_search:
+  enable: true
