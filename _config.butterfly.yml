@@ -89,31 +89,31 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://s2.328888.xyz/2022/06/28/62ba60eac6c6a.png
+index_img: https://i.328888.xyz/2023/03/02/6PY8N.png
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://s2.328888.xyz/2022/06/28/62babd5649056.png
+default_top_img: https://i.328888.xyz/2023/03/02/6PSfH.png
 
 # The banner image of archive page
 archive_img: 
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: https://s2.328888.xyz/2022/06/28/62babd586a68a.png
+tag_img: https://i.328888.xyz/2023/03/02/6PSfH.png
 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img: https://s2.328888.xyz/2022/06/28/62babd528c2ec.png
+tag_per_img: https://i.328888.xyz/2023/03/02/6PSfH.png
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: https://s2.328888.xyz/2022/06/28/62babd5649056.png
+category_img: https://i.328888.xyz/2023/03/02/6PhoF.png
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_per_img: https://s2.328888.xyz/2022/06/28/62babd56c6f57.png
+category_per_img: https://i.328888.xyz/2023/03/02/6PAiQ.png
 
 cover:
   # display the cover or not (是否顯示文章封面)
@@ -125,13 +125,14 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
-    - https://s2.328888.xyz/2022/06/28/62babd586a68a.png
-    - https://s2.328888.xyz/2022/06/28/62babd528c2ec.png
-    - https://s2.328888.xyz/2022/06/28/62babd5649056.png
-    - https://s2.328888.xyz/2022/06/28/62babd56c6f57.png
+    - https://i.328888.xyz/2023/03/02/6PSfH.png
+    - https://i.328888.xyz/2023/03/02/6PWCX.png
+    - https://i.328888.xyz/2023/03/02/6Pn1P.png
+    - https://i.328888.xyz/2023/03/02/6PDbE.png
+    - https://i.328888.xyz/2023/03/02/6PAiQ.png
+    - https://i.328888.xyz/2023/03/02/6PhoF.png
 #高质量保真图片
-#网站 https://i.imgloc.com/user/luochen
+#网站 https://imgloc.com/
 
 
 
